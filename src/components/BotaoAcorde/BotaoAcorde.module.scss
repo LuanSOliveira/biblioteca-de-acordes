@@ -1,0 +1,26 @@
+@import '../../styles/abstracts/variaveis';
+
+.BotaoAcorde{
+    background: $background-padrao;
+    border: none;
+    font-weight: bold;
+    width: 2rem;
+    padding: 0.3rem;
+    margin: 1rem 3px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    &:hover{
+        box-shadow: 0px 0px 2px 1px rgba(0, 112, 146, 0.2);
+    }
+}
+
+.BotaoAcordeDark{
+    background: $background-dark-1;
+    color: $fonte-dark;
+
+    &:hover{
+        box-shadow: 0px 0px 2px 1px rgba(107, 105, 105, 0.2);
+    }
+}

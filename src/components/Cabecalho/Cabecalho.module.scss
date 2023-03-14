@@ -1,0 +1,12 @@
+@import '../../styles/abstracts/variaveis';
+
+.Cabecalho{
+    background: $background-padrao;
+    text-align: center;
+    padding: 1.2rem 0;
+}
+
+.CabecalhoDark{
+    background: $background-dark-1;
+    color: $fonte-dark;
+}

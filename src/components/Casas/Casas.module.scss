@@ -1,0 +1,27 @@
+@import '../../styles/abstracts/variaveis';
+
+.Casas{
+    display: flex;
+
+    h2{
+        font-size: 18px;
+        margin: 6px 2px 0 0;
+    }
+
+    .CasaLinha{
+        width: 3.5rem;
+        height: 4.5rem;
+        border: solid;
+        border-width: 2px;
+    }
+}
+
+.CasasDark{
+    h2{
+        color: $fonte-dark;
+    }
+
+    .CasaLinha{
+        border-color: $bordas-dark;
+    }
+}

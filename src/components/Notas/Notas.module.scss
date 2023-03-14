@@ -1,0 +1,28 @@
+@import '../../styles/abstracts/variaveis';
+
+.Notas{
+    background: $nota-background-padrao;
+    padding: 0.3rem 0rem 0.3rem 0.68rem;
+    width: 1.3rem;
+    height: 1.5rem;
+    border-radius: 25px;
+    position: relative;
+    left: -18px;
+    top: 23px
+}
+
+.NotasDark{
+    background: $nota-background-dark;
+}
+
+.Selecionada{
+    background: $nota-background-selecionado;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.SelecionadaDark{
+    background: $nota-background-dark-selecionado;
+    font-size: 18px;
+    font-weight: bold;
+}

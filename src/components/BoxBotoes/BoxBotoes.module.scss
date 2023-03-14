@@ -1,0 +1,21 @@
+@import '../../styles/abstracts/variaveis';
+
+.BoxBotoes{
+    display: flex;
+    justify-content: center;
+
+    .Container{
+        margin: 1.1rem 0;
+        width: 17rem;
+
+        .Tema{
+            text-align: right;
+        }
+
+        .BoxSelecao{
+            width: 5rem;
+            font-size: 18px;
+            padding: 0.2rem;
+        }
+    }
+}
